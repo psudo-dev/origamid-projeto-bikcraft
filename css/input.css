@@ -1,6 +1,10 @@
 /* Tailwind */
 @import "tailwindcss";
 
+@theme {
+	--breakpoint-w1160: 1161px;
+}
+
 /* Global */
 @import "./global/global.css";
 @import "./global/header.css";
