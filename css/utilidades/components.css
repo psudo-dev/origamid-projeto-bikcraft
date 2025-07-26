@@ -42,7 +42,7 @@
 	background: var(--cor-9);
 }
 
-.container {
+.container-std {
 	max-width: 1200px;
 	margin: 0 auto;
 	padding-left: 40px;

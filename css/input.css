@@ -1,0 +1,44 @@
+/* Tailwind */
+@import "tailwindcss";
+
+/* Global */
+@import "./global/global.css";
+@import "./global/header.css";
+@import "./global/footer.css";
+
+/* Utilidades */
+@import "./utilidades/cores.css";
+@import "./utilidades/tipografia.css";
+@import "./utilidades/components.css";
+@import "./utilidades/form.css";
+@import "./utilidades/simple-anime.css";
+
+/* Home */
+@import "./home/intro.css";
+@import "./home/bicicletas.css";
+@import "./home/tecnologia.css";
+@import "./home/parceiros.css";
+@import "./home/depoimento.css";
+@import "./home/seguros.css";
+
+/* Bicicletas */
+@import "./bicicletas/bicicletas.css";
+
+/* Bicicleta */
+@import "./bicicleta/bicicleta.css";
+@import "./bicicleta/bicicleta-outras.css";
+@import "./bicicleta/bicicleta-seguro.css";
+
+/* Contato */
+@import "./contato/contato.css";
+@import "./contato/contato-lojas.css";
+
+/* Termos e Condições */
+@import "./termos/termos.css";
+
+/* Seguros */
+@import "./seguros/seguros.css";
+@import "./seguros/seguros-perguntas.css";
+
+/* Orçamento */
+@import "./orcamento/orcamento.css";
