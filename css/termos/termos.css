@@ -1,0 +1,22 @@
+.termos-titulo {
+	position: relative;
+}
+
+.termos-content {
+	margin-top: 80px;
+	margin-bottom: 120px;
+}
+
+.termos-content h2 {
+	text-transform: none;
+	margin-bottom: 20px;
+}
+
+.termos-item {
+	margin-bottom: 40px;
+}
+
+.termos-item li {
+	margin-bottom: 20px;
+	max-width: 75ch;
+}

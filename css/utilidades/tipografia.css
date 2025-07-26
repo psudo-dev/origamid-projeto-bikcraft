@@ -1,0 +1,165 @@
+/*! Poppins */
+
+.pop-64-600 {
+	font-family: "Poppins", sans-serif;
+	font-size: 4rem;
+	line-height: 1.125;
+	font-weight: 600;
+}
+
+@media (max-width: 1160px) {
+	.pop-64-600 {
+		font-size: 2.5rem;
+	}
+}
+
+.pop-32-600 {
+	font-family: "Poppins", sans-serif;
+	font-size: 2rem;
+	line-height: 1.25;
+	font-weight: 600;
+}
+
+@media (max-width: 1160px) {
+	.pop-32-600 {
+		font-size: 1.5rem;
+	}
+}
+
+.pop-24-400 {
+	font-family: "Poppins", sans-serif;
+	font-size: 1.5rem;
+	line-height: 1.5;
+	font-weight: 400;
+}
+
+.pop-24-500 {
+	font-family: "Poppins", sans-serif;
+	font-size: 1.5rem;
+	line-height: 1.5;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+.pop-18-400 {
+	font-family: "Poppins", sans-serif;
+	font-size: 1.125rem;
+	line-height: 1.35;
+	font-weight: 400;
+}
+
+.pop-18-500 {
+	font-family: "Poppins", sans-serif;
+	font-size: 1.125rem;
+	line-height: 1.35;
+	font-weight: 500;
+}
+
+.pop-18-600 {
+	font-family: "Poppins", sans-serif;
+	font-size: 1.125rem;
+	line-height: 1.35;
+	font-weight: 600;
+}
+
+.pop-16-400 {
+	font-family: "Poppins", sans-serif;
+	font-size: 1rem;
+	line-height: 1.5;
+	font-weight: 400;
+}
+
+.pop-16-500 {
+	font-family: "Poppins", sans-serif;
+	font-size: 1rem;
+	line-height: 1.5;
+	font-weight: 500;
+}
+
+.pop-12-500 {
+	font-family: "Poppins", sans-serif;
+	font-size: 0.75rem;
+	line-height: 1.35;
+	font-weight: 500;
+}
+
+.pop-12-600 {
+	font-family: "Poppins", sans-serif;
+	font-size: 0.75rem;
+	line-height: 1.35;
+	font-weight: 600;
+}
+
+/*~ Roboto */
+
+.rob-32-500 {
+	font-family: "Roboto", sans-serif;
+	font-size: 2rem;
+	line-height: 1.25;
+	font-weight: 500;
+}
+
+@media (max-width: 1160px) {
+	.rob-32-500 {
+		font-size: 1.5rem;
+	}
+}
+
+.rob-24-400 {
+	font-family: "Roboto", sans-serif;
+	font-size: 1.5rem;
+	line-height: 1.5;
+	font-weight: 400;
+}
+
+.rob-24-500 {
+	font-family: "Roboto", sans-serif;
+	font-size: 1.5rem;
+	line-height: 1.5;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 1.5%;
+}
+
+@media (max-width: 1160px) {
+	.rob-24-400,
+	.rob-24-500 {
+		font-size: 1.125rem;
+	}
+}
+
+.rob-18-500 {
+	font-family: "Roboto", sans-serif;
+	font-size: 1.125rem;
+	line-height: 1.35;
+	font-weight: 500;
+}
+
+.rob-16-400 {
+	font-family: "Roboto", sans-serif;
+	font-size: 1rem;
+	line-height: 1.5;
+	font-weight: 400;
+}
+
+.rob-14-400 {
+	font-family: "Roboto", sans-serif;
+	font-size: 0.875rem;
+	line-height: 1.425;
+	font-weight: 400;
+}
+
+/*_ Merriweather */
+
+.mer-900 {
+	font-family: Merriweather;
+	font-style: italic;
+	font-weight: 900;
+	font-size: 2rem;
+}
+
+@media (max-width: 1160px) {
+	.mer-900 {
+		font-size: 1.5rem;
+	}
+}

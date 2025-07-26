@@ -1,0 +1,45 @@
+.seguros-planos {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 40px;
+	align-items: center;
+	padding-bottom: 60px;
+}
+
+.seguros-planos-item {
+	background-color: var(--cor-12);
+	display: grid;
+	grid-template-columns: 1fr auto;
+	gap: 20px;
+	padding: 32px;
+	padding-left: 64px;
+	border-radius: 4px;
+	height: fit-content;
+}
+
+.seguros-planos-item p {
+	display: grid;
+	text-align: right;
+}
+
+.seguros-planos-item li {
+	margin-bottom: 16px;
+	position: relative;
+}
+
+.seguros-planos-item li::before {
+	content: "";
+	display: block;
+	background: url("../../img/icones/lista.svg");
+	width: 13px;
+	height: 9px;
+	position: absolute;
+	top: 8px;
+	left: -20px;
+}
+
+@media (max-width: 880px) {
+	.seguros-planos {
+		grid-template-columns: 1fr;
+	}
+}

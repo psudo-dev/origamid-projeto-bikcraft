@@ -1,0 +1,53 @@
+.contato-lojas {
+	padding: 120px 0;
+}
+
+.contato-lojas h1 {
+	margin-bottom: 60px;
+}
+
+.contato-lojas-content {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 40px;
+}
+
+.contato-lojas-content img {
+	border-radius: 4px 4px 0 0;
+}
+
+.contato-lojas-item {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding: 40px;
+	gap: 32px;
+	border-radius: 0 0 4px 4px;
+}
+
+.contato-lojas-item ul {
+	padding-left: 16px;
+	border-left: 2px solid var(--cor-2);
+}
+
+.contato-lojas-item p {
+	display: flex;
+	gap: 8px;
+}
+
+.contato-lojas-item p::before {
+	content: "";
+	display: block;
+	background: url("../../img/icones/horario.svg");
+	height: 20px;
+	width: 20px;
+}
+
+@media (max-width: 960px) {
+	.contato-lojas {
+		padding: 60px 0;
+	}
+
+	.contato-lojas-content {
+		grid-template-columns: 1fr;
+	}
+}

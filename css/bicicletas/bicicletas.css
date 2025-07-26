@@ -1,0 +1,110 @@
+#menu-bicicletas::after {
+	width: 100%;
+}
+
+.bicicletas-item {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 40px;
+	padding: 60px 40px;
+}
+
+.bicicletas-item-imagem {
+	position: relative;
+}
+
+.bicicletas-item-imagem img {
+	height: 100%;
+	object-fit: cover;
+}
+
+.bicicletas-item-imagem span {
+	display: block;
+	background: var(--cor-12);
+	position: absolute;
+	padding: 8px;
+	right: 0;
+	top: 16px;
+	border-radius: 4px 0 0 4px;
+}
+
+.bicicletas-item-content {
+	display: grid;
+	grid-template-columns: 1fr auto;
+	gap: 24px;
+	padding-bottom: 40px;
+}
+
+.bicicletas-item-content h2::before {
+	content: "";
+	display: block;
+	height: 8px;
+	width: 12px;
+	background: var(--cor-p1);
+	margin-bottom: 8px;
+}
+
+.bicicletas-item-content a {
+	margin-top: auto;
+	margin-bottom: 0;
+	display: flex;
+	align-items: center;
+}
+
+.bicicletas-item-content a::after {
+	content: "";
+	display: block;
+	background: url("../../img/icones/seta.svg");
+	height: 10px;
+	width: 18px;
+	margin-left: 8px;
+}
+
+.bicicletas-lista {
+	display: grid;
+	gap: 16px;
+}
+
+.bicicletas-lista-item {
+	display: flex;
+	gap: 8px;
+	align-items: center;
+}
+
+.bg-middle {
+	position: relative;
+}
+
+.bg-middle::after {
+	content: "";
+	background: var(--cor-11);
+	position: absolute;
+	top: 0;
+	left: 25%;
+	width: 100vw;
+	height: 100%;
+	z-index: -1;
+}
+
+@media (max-width: 960px) {
+	.bicicletas-item {
+		grid-template-columns: 1fr;
+	}
+
+	.bg-middle {
+		background: var(--cor-11);
+	}
+
+	.bg-middle::after {
+		display: none;
+	}
+
+	.bicicletas-lista {
+		grid-template-columns: 1fr 1fr;
+		grid-column: 1 / -1;
+	}
+
+	.bicicletas-item-content {
+		padding-bottom: 0;
+	}
+}

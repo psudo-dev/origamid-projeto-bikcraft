@@ -1,0 +1,43 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 40px 20px;
+	flex-wrap: wrap;
+}
+
+.menu {
+	display: flex;
+	gap: 40px;
+}
+
+.menu a {
+	position: relative;
+	padding: 16px 0;
+}
+
+.menu a::after {
+	content: "";
+	display: block;
+	width: 0;
+	height: 2px;
+	background-color: var(--cor-0);
+	position: absolute;
+	top: 46px;
+	transition: 0.3s;
+}
+
+.menu a:hover::after,
+.menu a.link-ativo::after {
+	width: 100%;
+}
+
+@media (max-width: 600px) {
+	.header {
+		flex-direction: column;
+	}
+
+	.menu {
+		margin-top: 40px;
+	}
+}

@@ -1,0 +1,42 @@
+#menu-seguros::after {
+	width: 100%;
+}
+
+.seguros-vatagens-titulo {
+	padding-top: 120px;
+	padding-bottom: 60px;
+}
+
+.seguros-vantagens {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 40px 80px;
+	padding-bottom: 120px;
+	align-items: start;
+}
+
+.seguros-vantagens li {
+	display: grid;
+	gap: 8px;
+}
+
+.seguros-vantagens h3 {
+	text-transform: inherit;
+}
+
+@media (max-width: 960px) {
+	.seguros-vatagens-titulo {
+		padding-top: 60px;
+	}
+
+	.seguros-vantagens {
+		grid-template-columns: 1fr 1fr;
+		padding-bottom: 60px;
+	}
+}
+
+@media (max-width: 600px) {
+	.seguros-vantagens {
+		grid-template-columns: 1fr;
+	}
+}
