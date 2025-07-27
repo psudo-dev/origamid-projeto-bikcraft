@@ -3,7 +3,6 @@
 	justify-content: space-between;
 	align-items: center;
 	padding: 40px 20px;
-	flex-wrap: wrap;
 }
 
 .menu {
@@ -32,12 +31,44 @@
 	width: 100%;
 }
 
-@media (max-width: 600px) {
-	.header {
-		flex-direction: column;
+.hamburger {
+	display: none;
+	font-size: 2rem;
+	background: none;
+	border: none;
+	cursor: pointer;
+	color: var(--cor-0);
+	transition: 0.3s;
+}
+
+@media (max-width: 640px) {
+	.menu {
+		margin-top: 40px;
+	}
+
+	.hamburger {
+		display: block;
 	}
 
 	.menu {
-		margin-top: 40px;
+		display: none;
+		flex-direction: column;
+		position: absolute;
+		top: 88px;
+		right: 0;
+		background: var(--cor-12);
+		padding-inline: 42px;
+		padding-bottom: 42px;
+		width: 100%;
+		align-items: end;
+		z-index: 1;
+	}
+
+	.menu.show {
+		display: flex;
+	}
+
+	.menu li a {
+		font-size: 1.25rem;
 	}
 }
