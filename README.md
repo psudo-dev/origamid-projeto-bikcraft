@@ -1,4 +1,4 @@
-![Image](./design/desktop-preview.jpg)
+![Image](./img/screenshot/bikcraft-home.png)
 
 # Origamid - HTML and CSS for Beginners
 
@@ -14,8 +14,8 @@
 		- [Bikcraft Project](#bikcraft-project)
 	- [My Leaning Process](#my-leaning-process)
 		- [What I've Learned](#what-ive-learned)
+		- [Built Using](#built-using)
 		- [Comments](#comments)
-	- [Built Using](#built-using)
 	- [Author](#author)
 	- [License](#license)
 
@@ -57,11 +57,7 @@ After that, I try to refactor my code from the ground up to make it cleaner and 
 - Tailwind CSS
 - Basic JavaScript for interactivity and DOM manipulation
 
-### Comments
-
-
-
-## Built Using
+### Built Using
 
 - HTML
 - CSS
@@ -69,6 +65,16 @@ After that, I try to refactor my code from the ground up to make it cleaner and 
 	- Grid
 - Tailwind CSS
 - JavasScript
+
+### Comments
+
+While I was doing the HTML and CSS for Beginners course, I also did Origamid's [UI for Beginners](https://www.origamid.com/curso/ui-para-iniciantes/) course, [Flexbox](https://www.origamid.com/curso/flexbox/), [Grid](https://www.origamid.com/curso/css-grid/) and [Tailwind CSS](https://www.origamid.com/curso/tailwind-css/) courses.
+
+I have a Design background so I already wanted to learn how to use Figma, not to get too dependent on it, but to be able to create my own designs and layouts if necessary - or customize existing ones.
+
+I've just got introduced to Tailwind CSS and I intend to learn more about it later, but together with Flexbox and Grid courses, it helped me get even more familiar with CSS and how to use it to create responsive layouts.
+
+I've done some things differently from the course, I added a *hamburger menu* for the mobile version, or used `<details>` and `<summary>` elements for the FAQ section, for example. I also used some Tailwind CSS classes to make the transitions, but I didn't use it extensively as I've learned it in mid-project.
 
 ## Author
 
