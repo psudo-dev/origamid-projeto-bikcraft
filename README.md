@@ -51,6 +51,7 @@ After that, I try to refactor my code from the ground up to make it cleaner and 
 
 - HTML structure and semantics
 - CSS styling and layout techniques
+- CSS utility classes
 - Responsive design principles
 - Accessibility best practices
 - Flexbox and Grid for layout
@@ -68,7 +69,7 @@ After that, I try to refactor my code from the ground up to make it cleaner and 
 
 ### Comments
 
-While I was doing the HTML and CSS for Beginners course, I also did Origamid's [UI for Beginners](https://www.origamid.com/curso/ui-para-iniciantes/) course, [Flexbox](https://www.origamid.com/curso/flexbox/), [Grid](https://www.origamid.com/curso/css-grid/) and [Tailwind CSS](https://www.origamid.com/curso/tailwind-css/) courses.
+While I was doing the HTML and CSS for Beginners course, I also did Origamid's [UI for Beginners](https://www.origamid.com/curso/ui-para-iniciantes/), [Flexbox](https://www.origamid.com/curso/flexbox/), [Grid](https://www.origamid.com/curso/css-grid/) and [Tailwind CSS](https://www.origamid.com/curso/tailwind-css/) courses.
 
 I have a Design background so I already wanted to learn how to use Figma, not to get too dependent on it, but to be able to create my own designs and layouts if necessary - or customize existing ones.
 
