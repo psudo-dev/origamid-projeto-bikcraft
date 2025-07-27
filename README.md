@@ -12,8 +12,9 @@
 		- [Live Demo](#live-demo)
 	- [Origamid](#origamid)
 		- [Bikcraft Project](#bikcraft-project)
-	- [What I've Learned](#what-ive-learned)
-		- [My Leaning Process](#my-leaning-process)
+	- [My Leaning Process](#my-leaning-process)
+		- [What I've Learned](#what-ive-learned)
+		- [Comments](#comments)
 	- [Built Using](#built-using)
 	- [Author](#author)
 	- [License](#license)
@@ -24,7 +25,7 @@ I'm back to studying programming and I've started with the good old HTML and CSS
 
 ### Live Demo
 
-- [Live Demo](https://glitch-taco-bubble.netlify.app/)
+- [Live Demo](https://indigo-noodle-flinch.netlify.app)
 
 ## Origamid
 
@@ -38,7 +39,15 @@ I've done other courses from Udemy and Alura, but I found Origamid's approach to
 
 The Bikcraft project is a fictional e-bike brand, and the webpage is designed to showcase the skills learned in the course. The project includes various pages such as the homepage, product listings, and product details, all designed with a focus on user experience and responsive design.
 
-## What I've Learned
+## My Leaning Process
+
+I always try to do the exercises and challenges by myself first, with just the things I've learned up to that point - and research, sometimes lots of research.
+
+Then, I watch the classes and see how the instructor did it, and compare with my solution. This way, I can learn new techniques and improve my code, also understand a little better the best practices and conventions used by the pros.
+
+After that, I try to refactor my code from the ground up to make it cleaner and more efficient. This process has helped me a lot in understanding the concepts and fixing better the things I've learned.
+
+### What I've Learned
 
 - HTML structure and semantics
 - CSS styling and layout techniques
@@ -48,7 +57,7 @@ The Bikcraft project is a fictional e-bike brand, and the webpage is designed to
 - Tailwind CSS
 - Basic JavaScript for interactivity and DOM manipulation
 
-### My Leaning Process
+### Comments
 
 
 
