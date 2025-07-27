@@ -48,3 +48,11 @@ imagens.forEach((imagem) => {
 if (window.SimpleAnime) {
 	new SimpleAnime();
 }
+
+// ~ Menu Hamburger
+const toggleButton = document.getElementById("menuToggle");
+const menu = document.getElementById("menu");
+
+toggleButton.addEventListener("click", () => {
+	menu.classList.toggle("show");
+});
