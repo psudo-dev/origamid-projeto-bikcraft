@@ -808,14 +808,10 @@ img[src$=".jpg"] {
 .intro-imagem {
   margin-bottom: -120px;
 }
-.intro-img-1 {
-  height: 100%;
+.intro-imagem img {
   object-fit: cover;
-}
-.intro-img-2 {
+  width: 100%;
   height: 100%;
-  object-fit: cover;
-  display: none;
 }
 @media (max-width: 1160px) {
   .intro-content h1 {
@@ -830,12 +826,6 @@ img[src$=".jpg"] {
   .intro-imagem {
     margin-bottom: 20px;
   }
-  .intro-img-1 {
-    display: none;
-  }
-  .intro-img-2 {
-    display: block;
-  }
 }
 .home-bicicletas-content {
   display: grid;
@@ -843,18 +833,12 @@ img[src$=".jpg"] {
   gap: 40px;
   padding-bottom: 120px;
 }
-.home-bicicleta-1 {
-  object-fit: cover;
-}
-.home-bicicleta-2 {
-  display: none;
-  object-fit: cover;
-}
 .home-bicicletas-item {
   display: grid;
   gap: 8px;
 }
 .home-bicicletas-item img {
+  object-fit: cover;
   margin-bottom: 8px;
 }
 .home-bicicletas-item h3 {
@@ -885,12 +869,6 @@ img[src$=".jpg"] {
   .home-bicicletas-content {
     grid-template-columns: 1fr;
     padding-bottom: 60px;
-  }
-  .home-bicicleta-1 {
-    display: none;
-  }
-  .home-bicicleta-2 {
-    display: block;
   }
 }
 .tecnologia {

@@ -5,21 +5,13 @@
 	padding-bottom: 120px;
 }
 
-.home-bicicleta-1 {
-	object-fit: cover;
-}
-
-.home-bicicleta-2 {
-	display: none;
-	object-fit: cover;
-}
-
 .home-bicicletas-item {
 	display: grid;
 	gap: 8px;
 }
 
 .home-bicicletas-item img {
+	object-fit: cover;
 	margin-bottom: 8px;
 }
 
@@ -56,13 +48,5 @@
 	.home-bicicletas-content {
 		grid-template-columns: 1fr;
 		padding-bottom: 60px;
-	}
-
-	.home-bicicleta-1 {
-		display: none;
-	}
-
-	.home-bicicleta-2 {
-		display: block;
 	}
 }
