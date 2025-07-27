@@ -758,6 +758,13 @@ img[src$=".jpg"] {
   border: 2px solid var(--cor-p1);
   background: var(--cor-0);
 }
+@media (max-width: 640px) {
+  .form {
+    grid-template-columns: 1fr;
+    padding: 20px;
+    gap: 20px 16px;
+  }
+}
 .js .fadeInDown {
   transform: translate3d(0, -20px, 0);
 }
@@ -1473,6 +1480,11 @@ img[src$=".jpg"] {
     margin: 0 0 0 32px;
   }
 }
+@media (max-width: 720px) {
+  .contato-loja {
+    grid-template-columns: 1fr;
+  }
+}
 .contato-lojas {
   padding: 120px 0;
 }
@@ -1515,6 +1527,12 @@ img[src$=".jpg"] {
   }
   .contato-lojas-content {
     grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 640px) {
+  .contato-lojas-item {
+    padding: 20px;
+    gap: 20px;
   }
 }
 .termos-titulo {
