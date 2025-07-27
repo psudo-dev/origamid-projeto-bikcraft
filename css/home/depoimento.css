@@ -67,3 +67,14 @@
 		width: 100%;
 	}
 }
+
+@media (max-width: 640px) {
+	.deco-bottom-right,
+	.deco-top-left {
+		display: none;
+	}
+
+	.depoimento-content {
+		padding: 20px;
+	}
+}

@@ -692,6 +692,11 @@ img[src$=".jpg"] {
   padding-left: 40px;
   padding-right: 40px;
 }
+@media (max-width: 640px) {
+  .container-std,	.container-wide {
+    padding-inline: 20px;
+  }
+}
 .titulo {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -1043,6 +1048,14 @@ img[src$=".jpg"] {
     width: 100%;
   }
 }
+@media (max-width: 640px) {
+  .deco-bottom-right,	.deco-top-left {
+    display: none;
+  }
+  .depoimento-content {
+    padding: 20px;
+  }
+}
 .seguros-planos {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -1081,6 +1094,12 @@ img[src$=".jpg"] {
 @media (max-width: 880px) {
   .seguros-planos {
     grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 640px) {
+  .seguros-planos-item {
+    padding: 20px;
+    padding-left: 40px;
   }
 }
 #menu-bicicletas::after {
