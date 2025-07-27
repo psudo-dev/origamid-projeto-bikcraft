@@ -16,6 +16,7 @@
 		- [What I've Learned](#what-ive-learned)
 		- [Built Using](#built-using)
 		- [Comments](#comments)
+		- [What's Next](#whats-next)
 	- [Author](#author)
 	- [License](#license)
 
@@ -71,11 +72,17 @@ After that, I try to refactor my code from the ground up to make it cleaner and 
 
 While I was doing the HTML and CSS for Beginners course, I also did Origamid's [UI for Beginners](https://www.origamid.com/curso/ui-para-iniciantes/), [Flexbox](https://www.origamid.com/curso/flexbox/), [Grid](https://www.origamid.com/curso/css-grid/) and [Tailwind CSS](https://www.origamid.com/curso/tailwind-css/) courses.
 
-I have a Design background so I already wanted to learn how to use Figma, not to get too dependent on it, but to be able to create my own designs and layouts if necessary - or customize existing ones.
+I also have a Design background so I already wanted to learn how to use Figma, not to get too deep into it, but to be able to create my own designs and layouts if necessary - or customize existing ones.
 
 I've just got introduced to Tailwind CSS and I intend to learn more about it later, but together with Flexbox and Grid courses, it helped me get even more familiar with CSS and how to use it to create responsive layouts.
 
 I've done some things differently from the course, I added a *hamburger menu* for the mobile version, or used `<details>` and `<summary>` elements for the FAQ section, for example. I also used some Tailwind CSS classes to make the transitions, but I didn't use it extensively as I've learned it in mid-project.
+
+### What's Next
+
+I plan to continue my studies in web development, focusing on JavaScript and then Typescript. After that I want a better understanding of Back-end development, so I can eventually become a Full Stack Developer.
+
+The next logical step after that is to learn a JavaScript framework, like React, Vue or Angular, and then dive into Node.js for server-side development - although I also want to learn a bit more about Deno and Bun. Even if I leave Full Stack development for later, I want to have a good understanding of how the back-end works, so I can at least build and setup small websites and apps by myself.
 
 ## Author
 
