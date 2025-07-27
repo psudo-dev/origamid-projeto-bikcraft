@@ -1543,7 +1543,7 @@ img[src$=".jpg"] {
 #menu-seguros::after {
   width: 100%;
 }
-.seguros-vatagens-titulo {
+.seguros-vantagens-titulo {
   padding-top: 120px;
   padding-bottom: 60px;
 }
@@ -1571,8 +1571,12 @@ img[src$=".jpg"] {
   }
 }
 @media (max-width: 640px) {
+  .seguros-vantagens-titulo {
+    padding-top: 40px;
+  }
   .seguros-vantagens {
     grid-template-columns: 1fr;
+    padding-bottom: 40px;
   }
 }
 .seguros-perguntas {
@@ -1603,16 +1607,17 @@ img[src$=".jpg"] {
   width: 12px;
   background: var(--cor-p1);
   position: absolute;
-  left: 20px;
+  left: 16px;
 }
 .pergunta::after {
   content: "";
-  display: inline-block;
-  background: url("../../img/icones/seta-abrir.svg");
+  display: block;
+  background: url("../../img/icones/seta-abrir.svg") no-repeat;
   width: 14px;
   height: 6px;
   transform: rotate(180deg);
   transition: 0.3s;
+  flex-shrink: 0;
 }
 .resposta {
   font: 400 1rem/1.5 "Roboto", sans-serif;
@@ -1626,6 +1631,20 @@ img[src$=".jpg"] {
 }
 .details-container[open] .pergunta::after {
   transform: rotate(0deg);
+}
+@media (max-width: 640px) {
+  .seguros-perguntas {
+    margin-block: 40px;
+  }
+  .pergunta {
+    font-size: 1rem;
+  }
+  .resposta {
+    font-size: 0.875rem;
+  }
+  #seguros .seguros-planos {
+    padding-bottom: 40px;
+  }
 }
 #orcamento {
   background: linear-gradient(var(--cor-11) 650px, var(--cor-1) 0px);

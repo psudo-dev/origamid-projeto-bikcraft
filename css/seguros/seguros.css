@@ -2,7 +2,7 @@
 	width: 100%;
 }
 
-.seguros-vatagens-titulo {
+.seguros-vantagens-titulo {
 	padding-top: 120px;
 	padding-bottom: 60px;
 }
@@ -36,7 +36,12 @@
 }
 
 @media (max-width: 640px) {
+	.seguros-vantagens-titulo {
+		padding-top: 40px;
+	}
+
 	.seguros-vantagens {
 		grid-template-columns: 1fr;
+		padding-bottom: 40px;
 	}
 }
