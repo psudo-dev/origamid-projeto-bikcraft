@@ -1597,6 +1597,7 @@ img[src$=".jpg"] {
   justify-content: space-between;
   position: relative;
   cursor: pointer;
+  gap: 12px;
 }
 .pergunta::marker {
   display: none;
