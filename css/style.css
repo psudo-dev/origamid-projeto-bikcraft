@@ -8,8 +8,6 @@
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
     --spacing: 0.25rem;
-    --default-transition-duration: 150ms;
-    --default-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
   }
@@ -314,7 +312,6 @@ img[src$=".jpg"] {
   justify-content: space-between;
   align-items: center;
   padding: 40px 20px;
-  flex-wrap: wrap;
 }
 .menu {
   display: flex;
@@ -337,12 +334,40 @@ img[src$=".jpg"] {
 .menu a:hover::after, .menu a.link-ativo::after {
   width: 100%;
 }
-@media (max-width: 600px) {
-  .header {
-    flex-direction: column;
-  }
+.hamburger {
+  display: none;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--cor-0);
+  transition: 0.3s;
+}
+@media (max-width: 640px) {
   .menu {
     margin-top: 40px;
+  }
+  .hamburger {
+    display: block;
+  }
+  .menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 88px;
+    right: 0;
+    background: var(--cor-12);
+    padding-inline: 42px;
+    padding-bottom: 42px;
+    width: 100%;
+    align-items: end;
+    z-index: 1;
+  }
+  .menu.show {
+    display: flex;
+  }
+  .menu li a {
+    font-size: 1.25rem;
   }
 }
 .footer {
@@ -908,7 +933,7 @@ img[src$=".jpg"] {
     display: none;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 640px) {
   .tecnologia-vantagens {
     grid-template-columns: 1fr;
   }
@@ -954,7 +979,7 @@ img[src$=".jpg"] {
     border-right: 2px solid var(--cor-2);
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 640px) {
   .home-parceiros {
     text-align: center;
   }
@@ -1504,7 +1529,7 @@ img[src$=".jpg"] {
     padding-bottom: 60px;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 640px) {
   .seguros-vantagens {
     grid-template-columns: 1fr;
   }
@@ -1691,7 +1716,7 @@ img[src$=".jpg"] {
     border-radius: 0 0 4px 4px;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 640px) {
   .orcamento-produto {
     grid-template-columns: 1fr;
   }

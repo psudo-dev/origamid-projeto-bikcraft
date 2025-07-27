@@ -35,7 +35,7 @@
 	}
 }
 
-@media (max-width: 600px) {
+@media (max-width: 640px) {
 	.seguros-vantagens {
 		grid-template-columns: 1fr;
 	}

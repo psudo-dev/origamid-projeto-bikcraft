@@ -62,7 +62,7 @@
 	}
 }
 
-@media (max-width: 600px) {
+@media (max-width: 640px) {
 	.tecnologia-vantagens {
 		grid-template-columns: 1fr;
 	}
