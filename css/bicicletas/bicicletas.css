@@ -108,3 +108,13 @@
 		padding-bottom: 0;
 	}
 }
+
+@media (max-width: 640px) {
+	.bicicletas-item {
+		padding: 40px 20px;
+	}
+
+	.bicicletas-lista-item p {
+		font-size: 1rem;
+	}
+}
