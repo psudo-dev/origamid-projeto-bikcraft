@@ -1484,6 +1484,15 @@ img[src$=".jpg"] {
   .contato-loja {
     grid-template-columns: 1fr;
   }
+  .contato-lojas-item li,	.contato-lojas-item p {
+    font-size: 0.875rem;
+  }
+}
+@media (max-width: 640px) {
+  .contato-loja {
+    padding: 20px;
+    padding-bottom: 40px;
+  }
 }
 .contato-lojas {
   padding: 120px 0;
