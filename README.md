@@ -10,56 +10,56 @@
 	- [Table of Contents](#table-of-contents)
 	- [Overview](#overview)
 		- [Live Demo](#live-demo)
-	- [Frontend Mentor](#frontend-mentor)
-		- [The Challenge](#the-challenge)
-	- [Commentary](#commentary)
+	- [Origamid](#origamid)
+		- [Bikcraft Project](#bikcraft-project)
+	- [What I've Learned](#what-ive-learned)
+		- [My Leaning Process](#my-leaning-process)
 	- [Built Using](#built-using)
 	- [Author](#author)
 	- [License](#license)
 
 ## Overview
 
-I'm back to studying programming and I've started with the good old HTML and CSS. After finishing the course - and learning a bit of Tailwind - I'm tackling some [Frontend Mentor](https://www.frontendmentor.io) challenges to put into practice everything I've learned as I continue my studies.
+I'm back to studying programming and I've started with the good old HTML and CSS. This is the final project of the [Origamid - HTML and CSS for Beginners](https://www.origamid.com/curso/html-e-css-para-iniciantes/) course. The layout was developed in Figma and it was the final project of [Origamid - UI for Beginners](https://www.origamid.com/curso/ui-para-iniciantes/) course.
 
 ### Live Demo
 
 - [Live Demo](https://glitch-taco-bubble.netlify.app/)
 
-## Frontend Mentor
+## Origamid
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+Origamid is an online platform that offers courses in web development, design, and other related fields. The courses are well-structured and provide a solid foundation for beginners.
 
-The challenges are pretty straight forward, you have to replicate the page or element as closely as possible as the initial image or Figma layout - when provided.
+I've done other courses from Udemy and Alura, but I found Origamid's approach to be more engaging and practical. As the instructor is well versed in both design and development, the courses also cover the design aspect, which is often overlooked in other platforms.
 
-### The Challenge
+ The courses are designed to help you build real-world projects, more similar to what you would encounter in a work environment, which is a great way to learn.
 
-- [Social Proof Section](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA)
+### Bikcraft Project
 
-Use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+The Bikcraft project is a fictional e-bike brand, and the webpage is designed to showcase the skills learned in the course. The project includes various pages such as the homepage, product listings, and product details, all designed with a focus on user experience and responsive design.
 
-Your users should be able to:
+## What I've Learned
 
-- View the optimal layout for the section depending on their device's screen size
+- HTML structure and semantics
+- CSS styling and layout techniques
+- Responsive design principles
+- Accessibility best practices
+- Flexbox and Grid for layout
+- Tailwind CSS
+- Basic JavaScript for interactivity and DOM manipulation
 
-Want some support on the challenge? [Join the Frontend Mentor community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
+### My Leaning Process
 
-## Commentary
 
-I've also decided to build some of the challenges with Tailwind CSS - including this one - since that's new to me. I know it's not the usual way to use Tailwind but it should be a good training.
-
-The most challenging part was the fact that I'm used to think Desktop first and worry about Mobile later but Tailwind is Mobile first, so I had to rewire my brain to think backwards.
-
-All in all, I think it got pretty close to the original design - except the mouse interactions, as I was testing out some Tailwind transitions.
-
-To think I used to hate these HTML and CSS challenges - back then when I first learned programming I just wanted to practice JavasScript - but here I am.
 
 ## Built Using
 
 - HTML
 - CSS
 	- Flexbox
-	- CSS
+	- Grid
 - Tailwind CSS
+- JavasScript
 
 ## Author
 
