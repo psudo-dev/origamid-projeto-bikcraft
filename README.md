@@ -76,7 +76,7 @@ I also have a Design background so I already wanted to learn how to use Figma, n
 
 I've just got introduced to Tailwind CSS and I intend to learn more about it later, but together with Flexbox and Grid courses, it helped me get even more familiar with CSS and how to use it to create responsive layouts.
 
-I've done some things differently from the course, I added a *hamburger menu* for the mobile version, or used `<details>` and `<summary>` elements for the FAQ section, for example. I also used some Tailwind CSS classes to make the transitions, but I didn't use it extensively as I've learned it in mid-project.
+I've done some things differently from the course, I added a *hamburger menu* for the mobile version, or used `<details>` and `<summary>` elements for the FAQ section, for example. I also used some Tailwind CSS classes to make the transitions, but I didn't use it extensively as I've learned it in mid-project - and I would have to refactor the whole project in order to implement Tailwind properly.
 
 ### What's Next
 
