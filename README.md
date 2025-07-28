@@ -82,7 +82,9 @@ I've done some things differently from the course, I added a *hamburger menu* fo
 
 I plan to continue my studies in web development, focusing on JavaScript and then Typescript. After that I want a better understanding of Back-end development, so I can eventually become a Full Stack Developer.
 
-The next logical step after that is to learn a JavaScript framework, like React, Vue or Angular, and then dive into Node.js for server-side development - although I also want to learn a bit more about Deno and Bun. Even if I leave Full Stack development for later, I want to have a good understanding of how the back-end works, so I can at least build and setup small websites and apps by myself.
+The next logical step after that is to learn a JavaScript framework, like React, Vue or Angular, and then dive into Node.js for server-side development - I also want to learn a bit more about Deno and Bun as well.
+
+Even if I leave back-end development for later, I want to have a good understanding of how the back-end works, so I can at least build and setup small websites and apps by myself.
 
 ## Author
 
